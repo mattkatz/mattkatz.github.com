@@ -70,8 +70,8 @@
                 + "&page="+page;
 
         $.getJSON(uri, function (result) {
-          if (result.data && result.data.length > 0) {
-            repos = repos.concat(result.data);
+          if (result && result.length > 0) {
+            repos = repos.concat(result);
             addRepos(repos, page + 1);
           }
           else {
