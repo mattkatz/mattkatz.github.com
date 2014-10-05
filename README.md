@@ -1,7 +1,8 @@
-twitter.github.com
+
+just minor modifications to the excellent work of twitter.github.com
 ======
 
-The source code of http://twitter.github.com/
+The source code of http://mattkatz.github.io/
 
 LICENSE
 ------------
